@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: 0 2px 5px;
+    position: relative;
+    z-index: 1;
+}
+
+header a {
+    color: black;
+}
+
+nav a {
+    padding: 20px;
+    color: black;
+}
+
+.space {
+    letter-spacing: 3px;
+}
+
+.building {
+    position: relative;
+    display: inline-block;
+}
+
+.building img {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.building-image {
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 45%;
+    left: 39%;
+    /* font-size: 20px; */
+    letter-spacing: 2px;
+}
+
+.overlay-text h1,
+p {
+    display: inline-block;
+}
+
+.overlay-text p {
+    color: rgba(255, 255, 255);
+    font-size: 25px;
+}
+
+.br-text  {
+    background-color: rgb(22, 21, 21, 0.7);
+    padding: 8px;
+    color: white;
+}
+
+.projects h1 {
+    margin-bottom: 20px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.projects hr {
+    margin-bottom: 60px;
+}
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.p1 {
+    width: 24.6%;
+}
+
+.p1 img {
+    width: 100%;
+}
+
+/* .p2 img {
+    width: 100%;
+}
+
+.p3 img {
+    width: 100%;
+}
+
+.p4 img {
+    width: 100%;
+} */
+
+/* .p5,
+.p6,
+.p7,
+.p8 {
+    width: 24.6%;
+} */
+
+/* .p5 img {
+    width: 100%;
+}
+
+.p6 img {
+    width: 100%;
+}
+
+.p7 img {
+    width: 100%;
+}
+
+.p8 img {
+    width: 100%;
+} */
+
+.p1 {
+    position: relative;
+    display: inline-block;
+    flex-grow: 1;
+    /* flex-basis: 24.6%; */
+    flex-basis: 20%;
+}
+
+@media screen and (max-width: 425px)  {
+    .p1 {
+        flex-basis: 80%;
+    }
+}
+
+.p1 img {
+    display: block;
+    width: 100%;
+}
+
+.p1-text {
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.about h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.about hr {
+    margin-bottom: 40px;
+}
+
+.about p {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+@media screen and (max-width: 425px) {
+    .card {
+          flex-basis: 80%;
+    }
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    width: 100%;
+    padding: 5px;
+}
+
+.card h3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.about {
+    margin-bottom: 40px;
+}
+
+.contact h1 {
+    margin-bottom: 20px;
+}
+
+.contact hr {
+    margin-bottom: 40px;
+}
+
+.map-pic {
+    width: 100%;
+}
+
+.button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.info {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.map-pic {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    text-decoration: underline;
+    color: white;
+}
